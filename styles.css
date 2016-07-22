@@ -1,0 +1,55 @@
+ul.topnav{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d7c6cf;
+}
+ul.topnav li {float : left;}
+ul.topnav li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 28px;
+	font-family: A little sunshine;
+}
+ul.topnave li a:hover {background-color: #d5beff}
+ul.topnav li.icon {display: none;}
+
+.jumbotron{
+    position: relative;
+    background: #000 url("bokeh-white.jpg") center center;
+    width: 100%;
+    height: 30%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+body {
+	
+	background-color: #CCCCCC;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #607b8b;
+	font-weight: bold;
+
+}
+h1 {
+	text-align: center;
+	color: #a200dd;
+	font-family: Janda Curlygirl Chunky;
+}
+
+h2 {
+	text-align: center;
+	color: #d5beff;
+	font-family: Janda Curlygirl Chunky;
+}
+p{
+	text-align: center;
+	color: #607b8b;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
