@@ -12,12 +12,14 @@
 
 <body>
 
+
     <div class="container">
+
         <div class="jumbotron">
             <h1>Bangles & Bags</h1>
-             <br>
             <br>
             <p class="lead">RINGS, NECKLACES, EARRINGS, and MORE...</p>
+
         </div>
         <ul class="topnav" id="myTopnav">
             <li><a href="index.html" title="See all we have to offer.">Home</a></li>
@@ -30,11 +32,55 @@
                 <a href="javascript:void(0);" onclick="myfunction()">&#9776;</a>
             </li>
         </ul>
+        <div class="col-sm-8">
+            <div class="slides-content slides-section slides-container" style="max-width:600px">
+                <img class="mySlides slides-animate-fading-center" src="blgrnecklace.jpg" style="width:100%">
+                <img class="mySlides slides-animate-fading-center" src="imageRing1.jpg" style="width:100%">
+                <img class="mySlides slides-animate-fading-center" src="images/imageGloves.jpg" style="width:100%">
+                <img class="mySlides slides-animate-fading-center" src="imageClutches.jpg" style="width:100%">
+                <img class="mySlides slides-animate-fading-center" src="imageBraclet.jpg" style=”width:100%”>
+                <img class="mySlides slides-animate-fading-center" src="necklaceFlower.jpg" style=”width:90%”>
+                <img class="mySlides slides-animate-fading-center" src="imageScarg.jpg" style=”width:90%”>
+                <img class="mySlides slides-animate-fading-center" src="imageBraclet2.jpg" style=”width:90%”>
+            </div>
+        </div>
 
+        <div class="search">
+            <br>
+            <br>
+            <form action="file:///C:/Users/Owner/Desktop/jQueryAJAXWebsiteDev/index.html">
+                <input type="text" name="search" placeholder="Search Here..." />
+                <input type="submit" value="Submit" />
+            </form>
+        </div>
+        <div>
+            <br>
+            <h2>"Feel </h2>
+            <h2>Fabulous</h2>
+            <h2>for</h2>
+            <h2>Less"</h2>
+        </div>
 
+        <script>      
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+    </div>
+
+    
         
-
-
 </body>
 
 </html>

@@ -1,9 +1,10 @@
+
 ul.topnav{
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #d7c6cf;
+    background-color: #EEBDCE;
 }
 ul.topnav li {float : left;}
 ul.topnav li a {
@@ -21,7 +22,7 @@ ul.topnav li.icon {display: none;}
 
 .jumbotron{
     position: relative;
-    background: #000 url("bokeh-white.jpg") center center;
+    background: #000 url("images/bokeh-white.jpg") center center;
     width: 100%;
     height: 30%;
     background-size: cover;
@@ -30,7 +31,7 @@ ul.topnav li.icon {display: none;}
 
 body {
 	
-	background-color: #CCCCCC;
+	background-color:  #FFFDFE;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #607b8b;
@@ -45,11 +46,62 @@ h1 {
 
 h2 {
 	text-align: center;
-	color: #d5beff;
-	font-family: Janda Curlygirl Chunky;
+	color: #EEBDCE;
+    font-style: bold;
+    font-size: 32px;
+	font-family: A little sunshine;
+}
+h4{
+  color: #EEBDCE;
+    font-style: bold;
+    font-size: 32px;
+	font-family: A little sunshine;  
 }
 p{
 	text-align: center;
 	color: #607b8b;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 5%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #DEEDDE;
+    border-radius: 2px;
+    
+ 
+}
+.btn-primary {
+    color: #fff;
+    background-color: #EEBDCE;
+    border-color: #DEEDDE;
+}
+.search-input {
+    width: 90%;
+    padding: 5px 5%;
+    float: right;
+    color: #fff;
+    background-color: #EEBDCE;
+    border-color: #DEEDDE;
+}
+a.btn.btn-default{
+   color: #fff;
+    background-color: #EEBDCE;
+    border-color: #DEEDDE;  
+}
+input#signup-button{
+      color: #fff;
+    background-color: #EEBDCE;
+    border-color: #DEEDDE;  
+}input{
+    color: #fff;
+    background-color: #EEBDCE;
+    border-color: #DEEDDE; 
 }

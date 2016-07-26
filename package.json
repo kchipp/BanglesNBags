@@ -1,0 +1,22 @@
+{
+  "name": "banglesandbags",
+  "version": "1.0.0",
+  "description": "recreation of website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kchipp/jQueryAJAXWebsiteDev.git"
+  },
+  "author": "kc hipp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kchipp/jQueryAJAXWebsiteDev/issues"
+  },
+  "homepage": "https://github.com/kchipp/jQueryAJAXWebsiteDev#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
