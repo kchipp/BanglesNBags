@@ -3,13 +3,12 @@ var app = express();
 var path = require("path");
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.sendFile(path.join(__dirname + "/public/index.html"));
 });
-app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname + "/LookBook.html"));
-});
-app.use(express.static(__dirname + "/images"));
-app.use(express.static(__dirname + "styles.css"))
+
+app.use(express.static(__dirname + "/public"));
+
+//app.use(express.static(__dirname + "styles.css"))
 
 
 
